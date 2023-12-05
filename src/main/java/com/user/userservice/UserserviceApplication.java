@@ -19,7 +19,7 @@ public class UserserviceApplication {
 		logger.info("Application Started....");
 	}
 
-	@GetMapping
+	@GetMapping("/hello")
 	public String sayHello()
 	{
 		return "Hello! How are you";
